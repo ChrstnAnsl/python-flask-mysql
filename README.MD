@@ -28,6 +28,12 @@
 * frontend folder is for templates and UI
 * templates folder is for rendering templates for testing purposes before the initial integration of front-end (this folder will be removed soon to prevent technical-debt)
 
+## Setting Up Database
+* For now we are using xampp for phpmyadmin
+* In your browser Go to localhost/phpmyadmin
+* Create a database with name dental
+* Create a table name users with name and email as VARCHAR and Limit to 20 characters
+
 ## Running local env
 
 * run python main.py
