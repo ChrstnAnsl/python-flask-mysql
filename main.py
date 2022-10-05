@@ -28,7 +28,7 @@ def index():
         
         userDetails = request.form
 
-        # Form Date
+        # Form Data from HTML
         name = userDetails['name']
         email = userDetails['email']
 
